@@ -7,4 +7,12 @@ export default defineConfig({
   base: '/',
   publicDir: './public',
   cacheDir: './.vite',
+  resolve: {
+    alias: [
+      { find: '@pages', replacement: '/src/pages' },
+      { find: '@components', replacement: '/src/components' },
+      { find: '@lib', replacement: '/src/lib' },
+      { find: '@assets', replacement: '/src/assets' },
+    ],
+  },
 })
