@@ -4325,7 +4325,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^20.6.2":
   version: 20.6.2
   resolution: "@types/node@npm:20.6.2"
   checksum: 96fe5303872640a173f3fd43e289a451776ed5b8f0090094447c6790b43f23fb607eea8268af0829cef4d132e5afa0bfa4cd871aa7412e9042a414a698e9e971
@@ -10643,6 +10643,7 @@ __metadata:
     "@storybook/react": 7.4.2
     "@storybook/react-webpack5": 7.4.2
     "@storybook/testing-library": 0.2.1
+    "@types/node": ^20.6.2
     "@types/prettier": ^3
     "@types/react": ^18.2.15
     "@types/react-dom": ^18.2.7
