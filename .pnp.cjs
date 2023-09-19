@@ -32,6 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-env", "virtual:b0b0ff88d3fe6a87527c0647d972edfdee6a471baaafd7bfc80c7dd26bb819906906480beecbee1179fc95c90d327e0217a4c7eaaf15db83dec5d29f5cef4329#npm:7.22.15"],\
             ["@babel/preset-react", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:7.22.15"],\
             ["@babel/preset-typescript", "virtual:9c36b08c6430b8ededa3cf7623143d5eff61438d8ce66b2d94eebfa9cf23f6dc51f65b3276fad1a5b1301a541d49c4fff1cf8fa7e8c17cf039543a61e1f2de59#npm:7.22.15"],\
+            ["@emotion/babel-plugin", "npm:11.11.0"],\
             ["@emotion/react", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:11.11.1"],\
             ["@emotion/styled", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:11.11.0"],\
             ["@storybook/addon-essentials", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:7.4.2"],\
@@ -13932,6 +13933,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-env", "virtual:b0b0ff88d3fe6a87527c0647d972edfdee6a471baaafd7bfc80c7dd26bb819906906480beecbee1179fc95c90d327e0217a4c7eaaf15db83dec5d29f5cef4329#npm:7.22.15"],\
             ["@babel/preset-react", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:7.22.15"],\
             ["@babel/preset-typescript", "virtual:9c36b08c6430b8ededa3cf7623143d5eff61438d8ce66b2d94eebfa9cf23f6dc51f65b3276fad1a5b1301a541d49c4fff1cf8fa7e8c17cf039543a61e1f2de59#npm:7.22.15"],\
+            ["@emotion/babel-plugin", "npm:11.11.0"],\
             ["@emotion/react", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:11.11.1"],\
             ["@emotion/styled", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:11.11.0"],\
             ["@storybook/addon-essentials", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:7.4.2"],\
