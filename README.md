@@ -1,6 +1,3 @@
 ## 프로젝트 세팅 테스트
 
-### yarn berry + vite + react + typescript + emotion + prettier + eslint + husky + storybook 프로젝트 세팅
-
-<br />
-https://gugu76.tistory.com/115
+[yarn berry + vite + react + typescript + react-query + emotion + prettier + eslint + husky + storybook 프로젝트 세팅을 해보자] https://gugu76.tistory.com/115
