@@ -66,6 +66,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-refresh", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:0.4.3"],\
             ["eslint-plugin-storybook", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:0.6.13"],\
             ["eslint-prettier", "npm:0.0.0-empty"],\
+            ["husky", "npm:8.0.3"],\
             ["prettier", "npm:3.0.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:18.2.0"],\
@@ -11811,6 +11812,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["husky", [\
+        ["npm:8.0.3", {\
+          "packageLocation": "./.yarn/cache/husky-npm-8.0.3-b0b59c5127-837bc7e441.zip/node_modules/husky/",\
+          "packageDependencies": [\
+            ["husky", "npm:8.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["iconv-lite", [\
         ["npm:0.4.24", {\
           "packageLocation": "./.yarn/cache/iconv-lite-npm-0.4.24-c5c4ac6695-bd9f120f5a.zip/node_modules/iconv-lite/",\
@@ -14471,6 +14481,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-refresh", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:0.4.3"],\
             ["eslint-plugin-storybook", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:0.6.13"],\
             ["eslint-prettier", "npm:0.0.0-empty"],\
+            ["husky", "npm:8.0.3"],\
             ["prettier", "npm:3.0.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:18.2.0"],\
