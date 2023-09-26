@@ -11,8 +11,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "predeploy": "yarn build-storybook",
-    "deploy-storybook": "gh-pages -d storybook-static"
+    "predeploy": "yarn build-storybook"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
@@ -73,6 +72,5 @@
     "typescript": "*",
     "vite": "^4.4.5"
   },
-  "packageManager": "yarn@3.6.3",
-  "homepage": "https://ghdtjgus76.github.io/project-setting"
+  "packageManager": "yarn@3.6.3"
 }
