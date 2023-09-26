@@ -7,6 +7,7 @@ export default defineConfig({
   base: '/',
   publicDir: './public',
   cacheDir: './.vite',
+  assetsInclude: ['**/*.jpg', '**/*.png', '**/*.svg'],
   resolve: {
     alias: [
       { find: '@pages', replacement: '/src/pages' },
@@ -16,8 +17,5 @@ export default defineConfig({
       { find: '@styles', replacement: '/src/styles' },
       { find: '@utils', replacement: '/src/utils' },
     ],
-  },
-  optimizeDeps: {
-    exclude: ['@ionic/core/loader'],
   },
 })
