@@ -17,4 +17,7 @@ export default defineConfig({
       { find: '@utils', replacement: '/src/utils' },
     ],
   },
+  optimizeDeps: {
+    exclude: ['@ionic/core/loader'],
+  },
 })
