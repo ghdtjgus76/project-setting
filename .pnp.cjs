@@ -76,6 +76,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:18.2.0"],\
             ["react-router-dom", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:6.16.0"],\
             ["storybook", "npm:7.4.2"],\
+            ["storybook-addon-paddings", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:5.0.0"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:4.4.9"]\
           ],\
@@ -14847,6 +14848,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:18.2.0"],\
             ["react-router-dom", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:6.16.0"],\
             ["storybook", "npm:7.4.2"],\
+            ["storybook-addon-paddings", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:5.0.0"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:4.4.9"]\
           ],\
@@ -16309,6 +16311,53 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["storybook", "npm:7.4.2"],\
             ["@storybook/cli", "npm:7.4.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["storybook-addon-paddings", [\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/storybook-addon-paddings-npm-5.0.0-6034164987-87824a8776.zip/node_modules/storybook-addon-paddings/",\
+          "packageDependencies": [\
+            ["storybook-addon-paddings", "npm:5.0.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:5.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/storybook-addon-paddings-virtual-7a214e4cdf/0/cache/storybook-addon-paddings-npm-5.0.0-6034164987-87824a8776.zip/node_modules/storybook-addon-paddings/",\
+          "packageDependencies": [\
+            ["storybook-addon-paddings", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:5.0.0"],\
+            ["@storybook/components", null],\
+            ["@storybook/manager-api", null],\
+            ["@storybook/preview-api", null],\
+            ["@storybook/theming", null],\
+            ["@storybook/types", null],\
+            ["@types/react", "npm:18.2.21"],\
+            ["@types/react-dom", "npm:18.2.7"],\
+            ["@types/storybook__components", null],\
+            ["@types/storybook__manager-api", null],\
+            ["@types/storybook__preview-api", null],\
+            ["@types/storybook__theming", null],\
+            ["@types/storybook__types", null],\
+            ["memoizerific", "npm:1.11.3"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:875ad469131fc2db544a6d825399e12977f7239d269bd31ac1016501019f3bcb2e00a10c7d0d5ba1f300b866da2c31376f78bb8cf0c392c421ba9b45d0c03066#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@storybook/components",\
+            "@storybook/manager-api",\
+            "@storybook/preview-api",\
+            "@storybook/theming",\
+            "@storybook/types",\
+            "@types/react-dom",\
+            "@types/react",\
+            "@types/storybook__components",\
+            "@types/storybook__manager-api",\
+            "@types/storybook__preview-api",\
+            "@types/storybook__theming",\
+            "@types/storybook__types",\
+            "react-dom",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\

@@ -10052,7 +10052,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"memoizerific@npm:^1.11.3":
+"memoizerific@npm:^1.11.0, memoizerific@npm:^1.11.3":
   version: 1.11.3
   resolution: "memoizerific@npm:1.11.3"
   dependencies:
@@ -11268,6 +11268,7 @@ __metadata:
     react-dom: ^18.2.0
     react-router-dom: ^6.16.0
     storybook: 7.4.2
+    storybook-addon-paddings: ^5.0.0
     typescript: "*"
     vite: ^4.4.5
   languageName: unknown
@@ -12510,6 +12511,28 @@ __metadata:
   version: 2.14.2
   resolution: "store2@npm:2.14.2"
   checksum: 6f270fc5bab99b63f45fcc7bd8b99c2714b4adf880f557ed7ffb5ed3987131251165bccde425a00928aaf044870aee79ddeef548576d093c68703ed2edec45d7
+  languageName: node
+  linkType: hard
+
+"storybook-addon-paddings@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "storybook-addon-paddings@npm:5.0.0"
+  dependencies:
+    memoizerific: ^1.11.0
+  peerDependencies:
+    "@storybook/components": ^7.0.0
+    "@storybook/manager-api": ^7.0.0
+    "@storybook/preview-api": ^7.0.0
+    "@storybook/theming": ^7.0.0
+    "@storybook/types": ^7.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: 87824a877652b549fe3adb3355c9897a544e714919e24d9c636002c4d814ca5d30c6922c3e0d49c684542259b79217fe02d04a5850df673b7ed2b0f121e5fff9
   languageName: node
   linkType: hard
 
