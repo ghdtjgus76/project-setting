@@ -18,12 +18,14 @@ export const Primary: Story = {
   args: {
     primary: true,
     label: 'Button',
+    backgroundColor: 'red',
   },
 }
 
 export const Secondary: Story = {
   args: {
     label: 'Button',
+    backgroundColor: 'white',
   },
 }
 
