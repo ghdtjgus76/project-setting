@@ -1,0 +1,2 @@
+const e={iPhone13:{name:"iPhone 13",styles:{width:"390px",height:"844px"},type:"mobile"},tablet:{name:"iPad Pro 11",styles:{width:"834px",height:"1194px"},type:"tablet"}},t={parameters:{actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/}},paddings:{values:[{name:"margin-template",value:"24px"},{name:"none",value:"0px"}],default:"none"},viewport:{viewports:e,defaultViewport:"iPhone13"}}};export{t as default};
+//# sourceMappingURL=preview-7b8dea56.js.map
